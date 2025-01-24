@@ -18,6 +18,6 @@ img{
 }
 
 .map {padding-left: 8px; /* Menambahkan jarak dari tepi kanan */
-  padding-right: 5px;  /* Menambahkan jarak dari tepi kiri untuk keselarasan */
+  padding-right: 10px;  /* Menambahkan jarak dari tepi kiri untuk keselarasan */
   max-width: 1000px; /* Membatasi lebar konten agar tidak terlalu panjang */
   margin: 0 auto; /* Agar elemen berada di tengah halaman */}
