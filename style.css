@@ -21,3 +21,30 @@ img{
   padding-right: 10px;  /* Menambahkan jarak dari tepi kiri untuk keselarasan */
   max-width: 1000px; /* Membatasi lebar konten agar tidak terlalu panjang */
   margin: 0 auto; /* Agar elemen berada di tengah halaman */}
+
+
+  .card-img-top {
+    object-fit: cover;
+    max-height: 80px; /* Batasi tinggi gambar */
+    width: 100%; /* Menyesuaikan lebar gambar */
+  }
+
+  .row {
+    width: 80%; /* Atur lebar kontainer menjadi 80% dari lebar parent */
+    margin: 0 auto; /* Pusatkan kontainer */
+  }
+
+  .col {
+    padding: 10px; /* Mengurangi padding kolom */
+  }
+
+  .card {
+    max-width: 200px; /* Membatasi lebar maksimum setiap card */
+    margin: 0 auto; /* Pusatkan setiap card di dalam kolom */
+  }
+
+  .card-img-top {
+    object-fit: cover;
+    max-height: 200px; /* Atur tinggi gambar */
+    width: 100%; /* Gambar mengikuti lebar kontainer */
+  }
