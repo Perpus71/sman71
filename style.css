@@ -29,6 +29,7 @@ img{
     width: 100%; /* Menyesuaikan lebar gambar */
   }
 
+  
   .row {
     width: 80%; /* Atur lebar kontainer menjadi 80% dari lebar parent */
     margin: 0 auto; /* Pusatkan kontainer */
@@ -48,3 +49,45 @@ img{
     max-height: 200px; /* Atur tinggi gambar */
     width: 100%; /* Gambar mengikuti lebar kontainer */
   }
+
+ 
+
+   .card {
+    max-width: 200px; /* Membatasi lebar maksimum setiap card */
+    margin: 0 auto; /* Pusatkan setiap card di dalam kolom */
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    
+}
+
+.box-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+.box-body {
+    flex-grow: 1;
+    padding: 10px;
+}
+.box-footer {
+    padding: 5px 10px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.container {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
